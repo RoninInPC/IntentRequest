@@ -6,17 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="307dp"
-        android:layout_marginEnd="118dp"
-        android:layout_marginBottom="405dp"
-        android:text="Get Titles From MainActivity"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="100dp"
+        android:background="#D6CCCC"
+        android:onClick="SendIntent"
+        android:text="Get Request"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="UnknownId,TextContrastCheck"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
