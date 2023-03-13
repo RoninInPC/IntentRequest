@@ -9,6 +9,7 @@ public class WaitIntnet extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        
         Toast.makeText(context, "Пришёл ответ на запрос Title = " +
                         intent.getStringExtra("TITLE_NO_THANKS"),
                 Toast.LENGTH_LONG).show();
